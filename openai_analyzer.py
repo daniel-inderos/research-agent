@@ -51,10 +51,10 @@ def analyze_research_openai(topic: str, results: List[Dict[str, str]]) -> str:
         {"role": "user", "content": formatted_results}
     ]
 
-    intermediate_analysis_model = "gpt-4.1-mini"  # Changed model
+    intermediate_analysis_model = "o3-mini"  # Reverted back to o3-mini for analysis
     max_tokens = 5000 # Define max_tokens
     try:
-        print("Calling OpenAI API (o3-mini) for analysis...")
+        print(f"Calling OpenAI API ({intermediate_analysis_model}) for analysis...")
         response = client.chat.completions.create(
             model=intermediate_analysis_model,
             messages=messages,

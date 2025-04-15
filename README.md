@@ -6,7 +6,7 @@ This project is an automated research agent that takes a topic, generates releva
 
 *   Generates targeted research queries based on an initial topic.
 *   Utilizes the Perplexity API (sonar model) for gathering research data.
-*   Uses OpenAI's GPT-4.1-mini for intermediate analysis/synthesis.
+*   Uses OpenAI's o3-mini for intermediate analysis/synthesis.
 *   Generates a final, comprehensive report in HTML format using OpenAI's GPT-4.1.
 *   Saves reports to a dedicated `generated_reports/` directory.
 
@@ -14,7 +14,7 @@ This project is an automated research agent that takes a topic, generates releva
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/daniel-inderos/research-agent  # Replace with your repository URL
+    git clone https://github.com/daniel-inderos/research-agent 
     cd research-agent
     ```
 
