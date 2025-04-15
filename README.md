@@ -14,7 +14,7 @@ This project is an automated research agent that takes a topic, generates releva
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url> # Replace with your repository URL
+    git clone https://github.com/daniel-inderos/research-agent  # Replace with your repository URL
     cd research-agent
     ```
 
